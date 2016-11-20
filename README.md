@@ -19,7 +19,6 @@ So, to recap, the install script will:
 ## Features
 
 - Handy [binary scripts](bin/)
-- [Stop words](dict/) lists that I use with Marked 2
 - Git aliases
 - zsh aliases
 - Custom zsh theme with Git and battery status, etc: [agustintheme](zsh/themes/agustin.zsh-theme)
@@ -34,6 +33,10 @@ $ cd ~/dotfiles
 $ chmod +x setup.sh
 $ ./setup.sh
 ```
+
+## Post Installation
+
+In order for the theme to look right you have to navigate to [iterm/fonts/](iterm/fonts/) and click on every font in order to install it manually with the "Install Font" button in the dialog.
 
 ## Remotely install using curl
 
