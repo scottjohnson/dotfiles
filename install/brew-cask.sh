@@ -6,12 +6,14 @@ brew install brew-cask
 brew tap caskroom/versions
 
 # Install packages
+
+# araxis-merge
+
 apps=(
-    1password
     gyazo
     dropbox
+    dinghy
     google-drive
-    spectacle
     flux
     dash
     imagealpha
@@ -26,18 +28,15 @@ apps=(
     google-chrome-canary
     malwarebytes-anti-malware
     glimmerblocker
-    hammerspoon
-    kaleidoscope
     macdown
-    opera
     screenflow
     spotify
     skype
-    slack
-    tower
-    transmit
-    elmedia-player
-    utorrent
+    hipchat
+    smartgit
+    sizeup
+    visual-studio-code
+    lastpass
 )
 
 brew cask install "${apps[@]}"

@@ -8,9 +8,9 @@
 #
 
 # Set computer name
-COMPUTERNAME="Nick Plekhanov's MBP"
-HOSTNAME='mbp'
-LOCALHOSTNAME='mbp'
+COMPUTERNAME="Agustin Colchado's MBP"
+HOSTNAME='agustin-mbp'
+LOCALHOSTNAME='agustin-mbp'
 
 # Ask for the administrator password upfront
 sudo -v
@@ -61,8 +61,8 @@ defaults write com.assple.SoftwareUpdate ScheduleFrequency -int 1
 # Disable the “Are you sure you want to open this application?” dialog
 defaults write com.apple.LaunchServices LSQuarantine -bool false
 
-# Disable Swipe controls for Google Chrome
-defaults write com.google.Chrome.plist AppleEnableSwipeNavigateWithScrolls -bool FALSE
+# Enable Swipe controls for Google Chrome
+defaults write com.google.Chrome.plist AppleEnableSwipeNavigateWithScrolls -bool TRUE
 
 # Disable inline attachments in Mail.app (just show the icons)
 defaults write com.apple.mail DisableInlineAttachmentViewing -bool true
@@ -155,7 +155,7 @@ defaults write com.apple.dashboard mcx-disabled -boolean YES; killall Dock
 # Disable icons on the Desktop
 # This will "hide" all the files on the Desktop, but one can still access
 # the files through Finder. Makes things look pretty.
-defaults write com.apple.finder CreateDesktop -bool false && killall Finder
+# defaults write com.apple.finder CreateDesktop -bool false && killall Finder
 
 ###############################################################################
 # Finder
