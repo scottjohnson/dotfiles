@@ -197,3 +197,27 @@ alias update_brew_npm_gem='brew_update; npm install npm -g; npm update -g; sudo 
 for method in GET HEAD POST PUT DELETE TRACE OPTIONS; do
   alias "$method"="lwp-request -m '$method'"
 done
+
+# --------------------
+# My Customs
+# --------------------
+
+# Path shortcuts
+alias code="cd ~/Code"
+alias ot="cd ~/Code/opentable"
+alias otbower="cd ~/Code/opentable/bower"
+alias otnpm="cd ~/Code/opentable/npm"
+alias comps="cd ~/Code/opentable/bower/components"
+alias npmcomps="cd ~/Code/opentable/npm/components"
+alias gc="cd ~/Code/opentable/gc"
+alias microsite="cd ~/Code/opentable/gc/microsites"
+alias otdocker="cd ~/Code/opentable/docker"
+alias otnetwork="cd ~/Code/opentable/network"
+alias otpartners="cd ~/Code/opentable/partners"
+alias spur="cd ~/Code/opentable/npm/spur"
+alias harness="cd ~/Code/opentable/npm/harness"
+alias gclib="cd ~/Code/opentable/npm/gclib"
+alias harness="cd ~/Code/opentable/npm/harness"
+
+# Commands
+alias rmnode="rm -rf node_modules/ npm-debug.log"
