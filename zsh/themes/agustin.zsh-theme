@@ -96,7 +96,7 @@ function prompt_online() {
 
 # Dir: current working directory
 prompt_dir() {
-  prompt_segment blue black '%~'
+  prompt_segment white black '%~'
 }
 
 # Status:
