@@ -72,6 +72,7 @@ apps=(
     ffmpeg --with-libvpx
     wget
     wifi-password
+    git-lfs
 )
 
 brew install "${apps[@]}"
