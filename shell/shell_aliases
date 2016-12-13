@@ -221,3 +221,4 @@ alias harness="cd ~/Code/opentable/npm/harness"
 
 # Commands
 alias rmnode="rm -rf node_modules/ npm-debug.log"
+alias rmcomp="rm -rf bower_components bower.cached.json dist/ .sass-cache/"
