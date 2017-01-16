@@ -33,7 +33,7 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 ###############################################################################
 
 # Hide Safari's bookmark bar.
-defaults write com.apple.Safari ShowFavoritesBar -bool false
+defaults write com.apple.Safari ShowFavoritesBar -bool true
 
 # Set up Safari for development.
 defaults write com.apple.Safari IncludeInternalDebugMenu -bool true
@@ -155,7 +155,7 @@ defaults write com.apple.dashboard mcx-disabled -boolean YES; killall Dock
 # Disable icons on the Desktop
 # This will "hide" all the files on the Desktop, but one can still access
 # the files through Finder. Makes things look pretty.
-# defaults write com.apple.finder CreateDesktop -bool false && killall Finder
+defaults write com.apple.finder CreateDesktop -bool true && killall Finder
 
 ###############################################################################
 # Finder
