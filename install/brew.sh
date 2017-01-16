@@ -73,6 +73,7 @@ apps=(
     wget
     wifi-password
     git-lfs
+    tree
 )
 
 brew install "${apps[@]}"
